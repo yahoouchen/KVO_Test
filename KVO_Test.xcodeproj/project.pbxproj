@@ -16,6 +16,7 @@
 		1C35B29D1FCF927500F59BF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C35B29C1FCF927500F59BF7 /* main.m */; };
 		1C35B2A71FCF927500F59BF7 /* KVO_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C35B2A61FCF927500F59BF7 /* KVO_TestTests.m */; };
 		1C35B2B21FCF927500F59BF7 /* KVO_TestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C35B2B11FCF927500F59BF7 /* KVO_TestUITests.m */; };
+		1C35B2C11FCF931200F59BF7 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C35B2C01FCF931200F59BF7 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		1C35B2AD1FCF927500F59BF7 /* KVO_TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KVO_TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C35B2B11FCF927500F59BF7 /* KVO_TestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVO_TestUITests.m; sourceTree = "<group>"; };
 		1C35B2B31FCF927500F59BF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C35B2BF1FCF931200F59BF7 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		1C35B2C01FCF931200F59BF7 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 				1C35B28B1FCF927500F59BF7 /* AppDelegate.m */,
 				1C35B28D1FCF927500F59BF7 /* ViewController.h */,
 				1C35B28E1FCF927500F59BF7 /* ViewController.m */,
+				1C35B2BF1FCF931200F59BF7 /* Person.h */,
+				1C35B2C01FCF931200F59BF7 /* Person.m */,
 				1C35B2901FCF927500F59BF7 /* Main.storyboard */,
 				1C35B2961FCF927500F59BF7 /* Assets.xcassets */,
 				1C35B2981FCF927500F59BF7 /* LaunchScreen.storyboard */,
@@ -270,6 +275,7 @@
 			files = (
 				1C35B28F1FCF927500F59BF7 /* ViewController.m in Sources */,
 				1C35B28C1FCF927500F59BF7 /* AppDelegate.m in Sources */,
+				1C35B2C11FCF931200F59BF7 /* Person.m in Sources */,
 				1C35B29D1FCF927500F59BF7 /* main.m in Sources */,
 				1C35B2951FCF927500F59BF7 /* KVO_Test.xcdatamodeld in Sources */,
 			);
